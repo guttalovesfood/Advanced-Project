@@ -8,11 +8,11 @@ function contact(event) {
   const success = document.querySelector('.modal__overlay--success');
 loading.classList += " modal__overlay--visible"
   emailjs
-  .semdForm(
+  .sendForm(
     'service_l6nxstt',
-    'template_88djwb8',
+    'template_baxs7fm',
     event.target,
-    'user_RDi9coNWEJ-pApL0x'
+    'Rrq5-RzNQ_0oboycc'
   ).then(() => {
     loading.classList.remove("modal__overlay--visible");
     success.classList += " modal__overlay--visible";
